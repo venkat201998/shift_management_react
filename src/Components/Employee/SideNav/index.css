@@ -1,0 +1,19 @@
+.btn-active {
+    background: rgba(0, 51, 102, 1) !important;
+    a {
+        color: rgb(255, 255, 255, 1) !important;
+    }
+}
+
+.btn-inactive {
+    border: none !important;
+    a {
+        color: rgba(0, 0, 0, 1) !important;
+    }
+}
+
+.btn-inactive:hover {
+    a {
+        color: rgb(255, 255, 255, 1) !important;
+    }
+}

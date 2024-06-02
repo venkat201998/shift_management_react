@@ -1,0 +1,46 @@
+.btn-auth-filled {
+    border: 1px solid rgba(0, 51, 102, 1);
+    color: rgba(0, 51, 102, 1) !important;
+
+    .custom-text-color {
+        color: rgba(0, 51, 102, 1) !important;
+        font-weight: 500 !important;
+    }
+}
+
+.btn-auth-filled:hover,
+.btn-auth-filled:active,
+.btn-auth-filled:focus-visible {
+    background: rgba(0, 51, 102, 1) !important;
+    color: rgb(255, 255, 255, 1) !important;
+    border: 1px solid rgba(0, 51, 102, 1) !important;
+    box-shadow: none !important;
+
+    .custom-text-color {
+        color: rgb(255, 255, 255, 1) !important;
+        font-weight: 500 !important;
+    }
+}
+
+.btn-auth-hollow {
+    background: rgba(0, 51, 102, 1);
+    color: rgb(255, 255, 255, 1) !important;
+
+    .custom-text-color {
+        color: rgb(255, 255, 255, 1) !important;
+        font-weight: 500 !important;
+    }
+}
+
+.btn-auth-hollow:hover,
+.btn-auth-hollow:active,
+.btn-auth-hollow:focus-visible {
+    color: rgba(0, 51, 102, 1) !important;
+    border: 1px solid rgba(0, 51, 102, 1) !important;
+    box-shadow: none !important;
+
+    .custom-text-color {
+        color: rgba(0, 51, 102, 1) !important;
+        font-weight: 500 !important;
+    }
+}
